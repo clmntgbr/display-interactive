@@ -12,7 +12,7 @@ use GuzzleHttp\Client;
 
 class SendPurchaseService
 {
-    const PUT_URL = "https://display-interactive.free.beeceptor.com";
+    const PUT_URL = "https://api.display-interactive.com/v1/customers";
 
     /** @var EntityManagerInterface */
     private $em;
